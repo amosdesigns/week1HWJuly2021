@@ -20,10 +20,13 @@ main{
   margin: 0 auto;
 }
 img{display: inline-block;
-  max-width: 400px;}
+  max-width: 400px;
+border: 5px solid black;
+}
 h2{
   text-align: center;
   text-decoration: underline;
+  font-size: 40px;
 }
 #col1,#col2,#col3 {padding: 10px;}
 #col1{ text-align: center;}
@@ -50,3 +53,20 @@ h1 {
   border-top: 10px solid black;
 border-bottom: 10px solid black;
 }
+ 
+.myvideo{
+  display:block;
+  overflow: hidden;
+  
+}
+video{
+  max-width:400px;
+  border: 10px solid black;
+  }
+   section{
+     display: flex;
+   }
+   section > div{ 
+     flex: 1;
+   }
+   section > div > figure > img {max-width: 200px;}
