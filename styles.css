@@ -19,7 +19,8 @@ main{
   max-width: 80vw;
   margin: 0 auto;
 }
-img{display: inline-block;
+img{
+  display: inline-block;
   max-width: 400px;
 border: 5px solid black;
 }
@@ -51,7 +52,7 @@ h1 {
   line-height: 1.70;
   text-align: center;
   border-top: 10px solid black;
-border-bottom: 10px solid black;
+  border-bottom: 10px solid black;
 }
  
 .myvideo{
@@ -63,10 +64,19 @@ video{
   max-width:400px;
   border: 10px solid black;
   }
-   section{
+section{
      display: flex;
    }
-   section > div{ 
+section > div{ 
      flex: 1;
    }
-   section > div > figure > img {max-width: 200px;}
+section > div > figure > img {max-width: 200px;}
+a{
+     text-decoration:none;
+     color: black;
+    }
+
+.action:hover{
+     border-bottom: 1px dotted gray;
+     cursor: pointer;
+   }
